@@ -3,10 +3,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/MARS.png') {
-      myImage.setAttribute ('src','images/banana.png');
+    if(mySrc === 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Mars_sketch_vector.svg/2000px-Mars_sketch_vector.svg.png" alt="THE GREAT MARS the futrue banana land') {
+      myImage.setAttribute ('src','http://www.dailyfreepsd.com/wp-content/uploads/2013/06/banana-vectordelicate-fruit.png');
     } else {
-      myImage.setAttribute ('src','images/MARS.png');
+      myImage.setAttribute ('src','https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Mars_sketch_vector.svg/2000px-Mars_sketch_vector.svg.png" alt="THE GREAT MARS the futrue banana land');
     }
 }
 var myButton = document.querySelector('button');
