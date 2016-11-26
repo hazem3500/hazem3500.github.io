@@ -3,10 +3,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'MARS.png') {
-      myImage.setAttribute ('src','banana.png');
+    if(mySrc === 'images/MARS.png') {
+      myImage.setAttribute ('src','images/banana.png');
     } else {
-      myImage.setAttribute ('src','MARS.png');
+      myImage.setAttribute ('src','images/MARS.png');
     }
 }
 var myButton = document.querySelector('button');
